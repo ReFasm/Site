@@ -19,11 +19,11 @@ const About: NextPage = () => {
           }
         `}</style>
         <Head>
-            <title>ReFasm - Dashboard</title>
+            <title>ReFasm - About</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <h1 className="pagelen center">Dashboard</h1>
+        <h1 className="pagelen center">About</h1>
     </React.Fragment>
       )
 }
