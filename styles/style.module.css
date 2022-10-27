@@ -1,0 +1,67 @@
+
+
+#navbar {
+	padding: 12px;
+	min-width:50px;
+	display: block;
+	line-height: 0.9;
+}
+	
+.navbar_item {
+	vertical-align: middle;
+	position: absolute;
+}
+
+.animated_in {
+	transition: 350ms ease;
+}
+.animated_in:hover {
+	color: #04977C;
+}
+
+.animated_in:hover > .icon {
+	color: #04977C;
+}
+
+.icon {
+	font-family: "Segoe Fluent Icons";
+	vertical-align: middle;
+	font-size: 1.1rem;
+	font-style: normal;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.icon::before {
+	vertical-align: middle;
+}
+.icon::after {
+	vertical-align: middle;
+}
+
+.align_right {
+	float: right;
+}
+
+.colors_alt {
+	color: #04977C
+}
+
+.colors_alt:hover {
+	color: #05c7a3
+}
+.colors_alt:hover > .icon {
+	color: #05c7a3
+}
+
+.pr_fix {
+	padding-right: 5px;
+}
+
+.center {
+	display: grid;
+	place-items: center;
+	place-content: center;
+	place-self: center;
+	align-items: center;
+}

@@ -1,26 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+	font-family: 'JetBrains Mono NF';
+	src: url("../res/fonts/JB_Mono_NF.ttf");
+	font-display: auto;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+	font-family: 'Segoe Fluent Icons';
+	src: url("../res/fonts/Segoe_Fluent_Icons.ttf");
 }
 
 * {
-  box-sizing: border-box;
+  font-family: "Jetbrains Mono NF";
+  color:white;
+  max-height: 95%;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.pagelen {
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme:dark) {
   body {
+    background-color: #171717;
     color: white;
-    background: black;
   }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
 }
