@@ -10,12 +10,37 @@
 
 * {
   font-family: "Jetbrains Mono NF";
-  color:white;
+  color:hsl(169, 44%, 93%);
   max-height: 95%;
 }
+:not(h1) {
+  font-size: 1rem;
+}
 
-.pagelen {
-  height: 100%;
+button[type="submit"] {
+	padding: 8px;
+  margin-left: 5px;
+  background-color: hsl(169, 44%, 93%);
+  border: none;
+  border-radius: 3px;
+  color: #1e1e1e;
+}
+
+button[type="submit"] i {
+  color: #1e1e1e;
+}
+
+button[type="submit"]:hover {
+  background-color: #05c7a3
+}
+
+
+.pfix_15 {
+  padding: 15px;
+}
+
+.pr_15 {
+  padding-right: 15px;
 }
 
 .center {
@@ -24,15 +49,21 @@
   justify-content: center;
 }
 
+.grid {
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
 @media (prefers-color-scheme:dark) {
   body {
     background-color: #171717;
-    color: white;
+    color: hsl(169, 44%, 93%);
   }
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: hsl(169, 44%, 93%);
   vertical-align: middle;
 }

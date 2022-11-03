@@ -16,7 +16,7 @@ export function NavbarLink(props: Props) {
     <Link href={props.href}>
       <a
         className={
-          styles.animated_in + " " + props.additionalClasses?.join(" ")
+          styles.animated_in + " " + " " + styles.pl_15 + " " +  props.additionalClasses?.join(" ")
         }
       >
         <Icon icon_id={props.icon} extClassname={props.iconAdditionalClasses}></Icon>
