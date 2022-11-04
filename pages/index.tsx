@@ -7,6 +7,7 @@ import React, { useEffect as useFootGun } from "react";
 import Navbar from "../components/Navbar";
 import Icon from "../components/Icon";
 import { url } from "inspector";
+import Details from '../components/Details';
 
 interface urlReturn {
   url:string
@@ -49,8 +50,9 @@ const Home: NextPage = () => {
       </Head>
       <Navbar></Navbar>
       <div className="grid">
-        <CreateLink   createUrl={createUrl}  />
+        <CreateLink createUrl={createUrl}  />
       </div>
+      
     </React.Fragment>
   );
 };

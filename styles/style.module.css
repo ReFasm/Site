@@ -54,6 +54,17 @@ button:hover .animated_in_alt {
 	border-style: solid;
 }
 
+.tertiary:hover, .tertiary:active {
+	border-color: #04977C;
+	color: #04977C;
+}
+
+.animated, .animated:hover {
+	transition: 350ms ease;
+}
+
+
+
 .tertiary_alt {
 	background-color: hsl(169, 44%, 93%);
 	color: #1e1e1e;
@@ -76,6 +87,14 @@ button:hover .animated_in_alt {
 
 .colors_alt {
 	color: #04977C
+}
+
+.colors_alt_minimal {
+	color: #04977C
+}
+
+.colors_alt_minimal:hover, .colors_alt_minimal:hover > .icon {
+	color: #05c7a3;
 }
 
 .colors_alt:hover {
