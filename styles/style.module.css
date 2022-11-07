@@ -22,6 +22,15 @@
 .animated_in:hover > .icon {
 	color: #04977C;
 }
+.animated_in_alt {
+	transition: 350ms ease;
+}
+
+
+button:hover .animated_in_alt {
+	color: #1e1e1e;
+}
+
 
 .icon {
 	font-family: "Segoe Fluent Icons";
@@ -29,9 +38,42 @@
 	font-size: 1.1rem;
 	font-style: normal;
 	position: relative;
-	padding-left: 15px;
 	padding-right: 5px;
 }
+
+.pl_15 {
+	padding-left:15px;
+}
+
+.tertiary {
+	background-color: transparent;
+	border-color: hsl(169, 44%, 93%);
+	border-radius: 3px;
+	padding: 8px;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.tertiary:hover, .tertiary:active {
+	border-color: #04977C;
+	color: #04977C;
+}
+
+.animated, .animated:hover {
+	transition: 350ms ease;
+}
+
+
+
+.tertiary_alt {
+	background-color: hsl(169, 44%, 93%);
+	color: #1e1e1e;
+}
+.tertiary_alt:hover {
+	background-color: #04977C;
+
+}
+
 .icon::before {
 	vertical-align: middle;
 }
@@ -47,13 +89,17 @@
 	color: #04977C
 }
 
-.colors_alt:hover {
-	color: #05c7a3
-}
-.colors_alt:hover > .icon {
-	color: #05c7a3
+.colors_alt_minimal {
+	color: #04977C
 }
 
+.colors_alt_minimal:hover, .colors_alt_minimal:hover > .icon {
+	color: #05c7a3;
+}
+
+.colors_alt:hover {
+	background-color: #05c7a3
+}
 .pr_fix {
 	padding-right: 5px;
 }
